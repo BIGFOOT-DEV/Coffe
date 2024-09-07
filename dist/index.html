@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/media/icon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/media/icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/media/icon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/media/icon/site.webmanifest" />
+    <title>Cup Cäfë</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <div
+      class="relative h-screen w-screen set:max-fold:h-svh set:max-fold:w-full bg-gradient-to-b from-brown-200 to-brown-100 shrink-0"
+    >
+      <!-- video bg setting!! -->
+      <video
+        class="absolute -z-10 w-full h-screen object-cover animate-reversePinchZoom"
+        autoplay="{true}"
+        loop
+        muted
+        disablepictureinpicture
+      >
+        <source src="/media/bg-video.mp4" type="video/mp4" />
+      </video>
+
+      <!-- Header consist of the logo, main nav, cart, and the burger menu -->
+      <header
+        class="w-[90%] h-[120px] flex items-center justify-between mx-auto set:max-tablet::w-[95%]"
+      >
+        <!-- Logo!! -->
+        <div>
+          <img src="/media/Logo-1.png" alt="logo" class="w-[80px]" />
+        </div>
+
+        <!-- Navigation links -->
+        <nav
+          class="set:hidden phone:hidden fold:block tablet:block laptop:block desktop:block hidden"
+        >
+          <ul
+            class="grid grid-cols-[auto_auto_auto_auto_auto] gap-2 fold:max-laptop:gap-0 font-sans"
+          >
+            <li
+              class="mx-[20px] py-2 flex items-center justify-center gap-[10px] fold:max-laptop:mx-[5px] cursor-pointer group"
+            >
+              <a
+                class="text-white uppercase font-semibold text-[18px] fold:max-tablet:text-[14px] tablet:max-laptop:text-[16px] w-fit duration-300 group-hover:translate-x-1 group-active:-translate-x-1"
+                href="#"
+                >Home</a
+              >
+              <div class="flex flex-col w-5 -translate-y-1">
+                <img
+                  src="/media/cup-cover.png"
+                  class="w-[15px] fold:max-tablet:w-[10px] tablet:max-laptop:w-[12.5px] duration-300 delay-300 group-hover:-translate-y-1 group-active:translate-y-1"
+                />
+                <img
+                  src="/media/cup.png"
+                  class="w-[15px] fold:max-tablet:w-[10px] tablet:max-laptop:w-[12.5px]"
+                />
+              </div>
+            </li>
+            <li
+              class="mx-[20px] py-2 flex items-center justify-center gap-[10px] fold:max-tablet:mx-[5px] tablet:max-laptop:mx-[10px] cursor-pointer group"
+              ><a
+                class="text-white uppercase font-semibold text-[18px] fold:max-tablet:text-[14px] tablet:max-laptop:text-[16px] w-fit duration-300 group-hover:translate-x-1 group-active:-translate-x-1"
+                href="#"
+                >Menu</a
+              >
+              <div class="flex flex-col w-5 -translate-y-1">
+                <img
+                  src="/media/cup-cover.png"
+                  class="w-[15px] fold:max-tablet:w-[10px] tablet:max-laptop:w-[12.5px] duration-300 delay-300 group-hover:-translate-y-1 group-active:-translate-y-1"
+                />
+                <img
+                  src="/media/cup.png"
+                  class="w-[15px] fold:max-tablet:w-[10px] tablet:max-laptop:w-[12.5px]"
+                />
+              </div>
+            </li>
+            <li
+              class="mx-[20px] py-2 flex items-center justify-center gap-[10px] fold:max-tablet:mx-[5px] tablet:max-laptop:mx-[10px] cursor-pointer group"
+            >
+              <a
+                class="text-white uppercase font-semibold text-[18px] fold:max-tablet:text-[14px] tablet:max-laptop:text-[16px] w-fit duration-300 group-hover:translate-x-1 group-active:-translate-x-1"
+                href="#"
+                >About</a
+              >
+              <div class="flex flex-col w-5 -translate-y-1">
+                <img
+                  src="/media/cup-cover.png"
+                  class="w-[15px] fold:max-tablet:w-[10px] tablet:max-laptop:w-[12.5px] duration-300 delay-300 group-hover:-translate-y-1 group-active:-translate-y-1"
+                />
+                <img
+                  src="/media/cup.png"
+                  class="w-[15px] fold:max-tablet:w-[10px] tablet:max-laptop:w-[12.5px]"
+                />
+              </div>
+            </li>
+            <li
+              class="mx-[20px] py-2 flex items-center justify-center gap-[10px] fold:max-tablet:mx-[5px] tablet:max-laptop:mx-[10px] cursor-pointer group"
+            >
+              <a
+                class="text-white uppercase font-semibold text-[18px] fold:max-tablet:text-[14px] tablet:max-laptop:text-[16px] w-fit duration-300 group-hover:translate-x-1 group-active:-translate-x-1"
+                href="#"
+                >Gallery</a
+              >
+              <div class="flex flex-col w-5 -translate-y-1">
+                <img
+                  src="/media/cup-cover.png"
+                  class="w-[15px] fold:max-tablet:w-[10px] tablet:max-laptop:w-[12.5px] duration-300 delay-300 group-hover:-translate-y-1 group-active:-translate-y-1"
+                />
+                <img
+                  src="/media/cup.png"
+                  class="w-[15px] fold:max-tablet:w-[10px] tablet:max-laptop:w-[12.5px]"
+                />
+              </div>
+            </li>
+            <li
+              class="mx-[20px] py-2 flex items-center justify-center gap-[10px] fold:max-tablet:mx-[5px] tablet:max-laptop:mx-[10px] cursor-pointer group"
+            >
+              <a
+                class="text-white uppercase font-semibold text-[18px] fold:max-tablet:text-[14px] tablet:max-laptop:text-[16px] w-fit duration-300 group-hover:translate-x-1 group-active:-translate-x-1"
+                href="#"
+                >Contact</a
+              >
+              <div class="flex flex-col w-5 -translate-y-1">
+                <img
+                  src="/media/cup-cover.png"
+                  class="w-[15px] fold:max-tablet:w-[10px] tablet:max-laptop:w-[12.5px] duration-300 delay-300 group-hover:-translate-y-1 group-active:-translate-y-1"
+                />
+                <img
+                  src="/media/cup.png"
+                  class="w-[15px] fold:max-tablet:w-[10px] tablet:max-laptop:w-[12.5px]"
+                />
+              </div>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Cart and burgerMenu -->
+        <div
+          class="set:max-fold:grid set:max-fold:grid-cols-2 set:max-fold:gap-2"
+        >
+          <div>
+            <img
+              src="/media/icons/dump/icon items/cart.svg"
+              alt="cart"
+              class="w-[40px]"
+            />
+          </div>
+
+          <!-- burgerMenu -->
+          <div
+            onclick="toggleNav()"
+            id="burgBut"
+            class="desktop:hidden laptop:hidden tablet:hidden fold:hidden phone:block set:block z-50"
+          >
+            <img
+              src="/media/icons/dump/icon items/menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+              class="transition-all fixed"
+            /> </div
+        ></div>
+      </header>
+
+      <!-- Burger menu nav -->
+      <section
+        id="toggleMenu"
+        class="w-screen h-screen bg-brown-900 absolute top-0 z-40 hidden animate-slideIn"
+      >
+        <nav class="duration-500 h-full">
+          <ul
+            class="h-screen flex flex-col items-center justify-center gap-10 font-sans py-10"
+          >
+            <li
+              class="mx-[20px] py-2 flex items-center justify-center gap-[10px] cursor-pointer group"
+            >
+              <a
+                class="text-white uppercase font-semibold text-[18px] w-fit"
+                href="#"
+                >Home</a
+              >
+              <div class="flex flex-col w-5 -translate-y-1">
+                <img src="/media/cup-cover.png" class="w-[15px" />
+                <img src="/media/cup.png" class="w-[15px]" />
+              </div>
+            </li>
+            <li
+              class="mx-[20px] py-2 flex items-center justify-center gap-[10px] cursor-pointer group"
+              ><a
+                class="text-white uppercase font-semibold text-[18px] w-fit"
+                href="#"
+                >Menu</a
+              >
+              <div class="flex flex-col w-5 -translate-y-1">
+                <img src="/media/cup-cover.png" class="w-[15px]" />
+                <img src="/media/cup.png" class="w-[15px]" />
+              </div>
+            </li>
+            <li
+              class="mx-[20px] py-2 flex items-center justify-center gap-[10px] cursor-pointer group"
+            >
+              <a
+                class="text-white uppercase font-semibold text-[18px] w-fit"
+                href="#"
+                >About</a
+              >
+              <div class="flex flex-col w-5 -translate-y-1">
+                <img src="/media/cup-cover.png" class="w-[15px]" />
+                <img src="/media/cup.png" class="w-[15px]" />
+              </div>
+            </li>
+            <li
+              class="mx-[20px] py-2 flex items-center justify-center gap-[10px] cursor-pointer group"
+            >
+              <a
+                class="text-white uppercase font-semibold text-[18px] w-fit"
+                href="#"
+                >Gallery</a
+              >
+              <div class="flex flex-col w-5 -translate-y-1">
+                <img src="/media/cup-cover.png" class="w-[15px]" />
+                <img src="/media/cup.png" class="w-[15px]" />
+              </div>
+            </li>
+            <li
+              class="mx-[20px] py-2 flex items-center justify-center gap-[10px] cursor-pointer group"
+            >
+              <a
+                class="text-white uppercase font-semibold text-[18px] w-fit"
+                href="#"
+                >Contact</a
+              >
+              <div class="flex flex-col w-5 -translate-y-1">
+                <img src="/media/cup-cover.png" class="w-[15px]" />
+                <img src="/media/cup.png" class="w-[15px]" />
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <!-- Welcome message and Button -->
+      <section
+        class="w-[85%] h-[calc(100vh_-_120px)] set:max-fold:h-[70svh] flex flex-col items-baseline justify-end mx-auto pb-[80px] text-white"
+      >
+        <div
+          class="flex flex-col items-baseline justify-end pb-[50px] ease-in duration-1000"
+        >
+          <h1
+            class="font-normal desktop:text-[5rem] laptop:text-[4rem] fold:max-laptop:text-[3rem] set:max-fold:text-[2.5rem] text-[2.5rem] animate-heading duration-300 ease-in-out"
+            >Fuel Your Code</h1
+          >
+          <h2
+            class="font-normal desktop:text-[4rem] laptop:text-[3rem] fold:max-laptop:text-[2.5rem] set:max-fold:text-[2rem] text-[2rem] animate-heading2 duration-300 ease-in-out"
+            >With Every Sip</h2
+          >
+          <p
+            class="font-medium desktop:text-2xl laptop:text-xl fold:max-laptop:text-lg set:max-fold:text-base tracking-wide animate-fallIn duration-300 ease-in-out"
+            >SIP, CODE, REPEAT</p
+          >
+        </div>
+        <div>
+          <button
+            class="border-white border-2 px-6 py-2 desktop:text-2xl laptop:text-xl fold:max-laptop:text-lg set:max-fold:text-base font-semibold animate-reversePinchZoom hover:tracking-[5px] hover:text-[#905b25] hover:bg-white hover:translate-x-2 duration-300 active:text-white active:bg-transparent"
+          >
+            EXPLORE →
+          </button>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
