@@ -24,9 +24,9 @@
     <title>Cup Cäfë</title>
     <link rel="stylesheet" href="/dist/output.css" />
   </head>
-  <body>
+  <body class="font-sans">
     <div
-      class="relative h-screen w-screen set:max-fold:h-svh set:max-fold:w-full bg-gradient-to-b from-brown-200 to-brown-100 shrink-0"
+      class="relative h-screen w-[100%] set:max-fold:h-svh set:max-fold:w-full bg-gradient-to-b from-brown-200 to-brown-100 shrink-0"
     >
       <!-- video bg setting!! -->
       <video
@@ -166,15 +166,16 @@
 
           <!-- burgerMenu -->
           <div
-            onclick="toggleNav()"
-            id="burgBut"
             class="desktop:hidden laptop:hidden tablet:hidden fold:hidden phone:block set:block z-50"
           >
             <img
+              onclick="toggleNav()"
+              id="burgBut"
               src="/media/icons/dump/icon items/menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
-              class="transition-all fixed"
-            /> </div
-        ></div>
+              class="transition-all fixed bg-brown-100 rounded-xl"
+            />
+          </div>
+        </div>
       </header>
 
       <!-- Burger menu nav -->
@@ -282,6 +283,520 @@
           </button>
         </div>
       </section>
+    </div>
+
+    <!-- Margin -->
+    <div class="w-[90%] m-auto">
+      <!-- code cafe public note -->
+      <section
+        class="py-[50px] set:px-[2rem] desktop:px-[3rem] grid auto-rows-auto"
+      >
+        <div
+          class="w-[100%] my-[20px] flex flex-col items-center justify-center"
+        >
+          <h1
+            class="set:max-phone:text-[20px] phone:max-fold:text-[25px] fold:max-tablet:text-[30px] tablet:max-laptop:text-[35px] laptop:text-[40px] laptop:leading-[50px] transition-all duration-300 text-[#3c7c53] font-normal font-sans"
+          >
+            Elevate your workday at Code Café
+          </h1>
+          <p
+            class="set:max-phone:text-[12px] phone:max-fold:text-[12px] fold:max-tablet:text-[16px] tablet:max-laptop:text-[20px] laptop:text-[25px] laptop:leading-[50px] transition-all duration-300 font-normal text-gray-600"
+          >
+            ...where your next big idea is just a sip away.
+          </p>
+        </div>
+
+        <!-- Newsletters -->
+        <div
+          class="grid gap-x-[60px] gap-y-[30px] text-gray-600 mb-[50px] m-auto set:max-tablet:grid-cols-1 set:max-tablet:grid-flow-row tablet:max-desktop:grid-cols-2 tablet:max-desktop:auto-rows-auto desktop:grid-cols-2 auto-rows-auto"
+        >
+          <div>
+            <p
+              class="set:max-phone:text-[60%] phone:max-tablet:text-[80%] tablet:text-[65%] laptop:text-[80%] desktop:text-[100%] transition-all duration-300"
+            >
+              Welcome to Code Café, where caffeine meets code, and innovation
+              flows with every cup. We're more than just a coffee shop—we're a
+              community hub for tech enthusiasts, freelancers, remote workers,
+              and anyone looking to combine productivity with comfort. At Code
+              Café, we believe in the power of a good cup of coffee to fuel
+              great ideas. That's why we've carefully crafted our menu to
+              include a wide range of premium coffee drinks, teas, and delicious
+              snacks—all made with the finest ingredients.
+            </p>
+          </div>
+          <div
+            ><h2
+              class="set:max-phone:text-[14px] phone:max-fold:text-[16px] fold:max-tablet:text-[16px] tablet:max-laptop:text-[18px] laptop:text-[20px] transition-all duration-300 text-[#3c7c53] font-medium font-sans leading-[30px]"
+            >
+              Our Story</h2
+            >
+            <p
+              class="set:max-phone:text-[60%] phone:max-tablet:text-[80%] tablet:text-[65%] laptop:text-[80%] desktop:text-[100%] transition-all duration-300"
+            >
+              Code Café was founded with a simple idea: to create a space where
+              people can work, connect, and unwind in an environment that
+              understands their needs. Born out of a love for both coffee and
+              coding, we set out to build a haven for techies who thrive on
+              creativity and collaboration.
+            </p>
+          </div>
+          <div
+            ><h2
+              class="set:max-phone:text-[14px] phone:max-fold:text-[16px] fold:max-tablet:text-[16px] tablet:max-laptop:text-[18px] laptop:text-[20px] transition-all duration-300 text-[#3c7c53] font-medium font-sans leading-[30px]"
+            >
+              The Space</h2
+            >
+            <p
+              class="set:max-phone:text-[60%] phone:max-tablet:text-[80%] tablet:text-[65%] laptop:text-[80%] desktop:text-[100%] transition-all duration-300"
+            >
+              Our café is designed with you in mind. With plenty of power
+              outlets, high-speed Wi-Fi, and comfortable seating, Code Café is
+              the perfect place to get things done. Our modern, tech-inspired
+              decor creates an atmosphere that's both stimulating and relaxing,
+              making it easy to stay focused and productive
+            </p>
+          </div>
+          <div
+            ><h2
+              class="set:max-phone:text-[14px] phone:max-fold:text-[16px] fold:max-tablet:text-[16px] tablet:max-laptop:text-[18px] laptop:text-[20px] transition-all duration-300 text-[#3c7c53] font-medium font-sans leading-[30px]"
+            >
+              Join the Code Cafe community</h2
+            >
+            <p
+              class="set:max-phone:text-[60%] phone:max-tablet:text-[80%] tablet:text-[65%] laptop:text-[80%] desktop:text-[100%] transition-all duration-300"
+            >
+              We're more than just a coffee shop; we're a community. From coding
+              workshops and networking events to live music nights, there's
+              always something happening at Code Café. Whether you're here to
+              work, meet new people, or simply enjoy a great cup of coffee,
+              we're here to make your experience exceptional.
+            </p>
+          </div>
+        </div>
+
+        <!-- 2nd Video -->
+        <div class="w-[100%]">
+          <video
+            src="/media/video.mp4"
+            autoplay="{true}"
+            loop
+            muted
+            disablepictureinpicture
+          >
+          </video>
+        </div>
+      </section>
+      <!-- end -->
+
+      <!-- Our Menu -->
+      <section class="py-[50px] set:max-tablet:px-[2rem] desktop:px-[3rem]">
+        <div
+          class="w-[100%] my-[20px] flex flex-col items-center justify-center"
+        >
+          <h1
+            class="set:max-phone:text-[20px] phone:max-fold:text-[25px] fold:max-tablet:text-[30px] tablet:max-laptop:text-[35px] laptop:text-[40px] laptop:leading-[50px] transition-all duration-300 text-[#3c7c53] font-normal font-sans"
+          >
+            Our Menu
+          </h1>
+          <p
+            class="set:max-phone:text-[12px] phone:max-fold:text-[12px] fold:max-tablet:text-[16px] tablet:max-laptop:text-[20px] laptop:text-[25px] laptop:leading-[50px] transition-all duration-300 font-normal text-gray-600"
+          >
+            Coffee & Beverages
+          </p>
+        </div>
+
+        <!-- The Menu -->
+        <div
+          class="grid gap-[2rem] w-[100%] mx-auto fold:max-tablet:grid-cols-2 fold:max-tablet:grid-rows-3 tablet:grid-cols-3 tablet:grid-rows-2"
+        >
+          <!-- 1 -->
+          <div
+            class="grid auto-rows-auto w-[100%] p-[10px] rounded-lg shadow-lg"
+          >
+            <!-- image -->
+            <div
+              class="min-w-[100%] h-[300px] tablet:h-[200px] overflow-hidden rounded-lg"
+            >
+              <img
+                src="/media/coffee-1.jpg"
+                class="h-full w-full object-cover transition-all duration-300 block hover:scale-125"
+            /></div>
+
+            <!-- Description -->
+            <div
+              class="grid grid-rows-[min-content_60px_min-content] gap-2 my-2 text-gray-700 font-medium"
+            >
+              <h3 class="text-lg font-[400]"> Espresso </h3>
+              <p class="leading-[18px] font-thin">
+                Rich, bold, and strong espresso shots
+              </p>
+              <p class="text-xl"> $2.75 </p>
+            </div>
+
+            <!-- Order Now -->
+            <div
+              class="w-[100%] h-[40px] bg-[#905b25] flex items-center justify-center py-2 mx-auto transition-all duration-300 hover:bg-[#b88148] hover:-translate-y-2"
+              ><button class="text-white">Order Now</button>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div
+            class="grid auto-rows-auto w-[100%] p-[10px] rounded-lg shadow-lg"
+          >
+            <!-- image -->
+            <div
+              class="min-w-[100%] h-[300px] tablet:h-[200px] overflow-hidden rounded-lg"
+            >
+              <img
+                src="/media/coffee-2.jpg"
+                class="h-full w-full object-cover transition-all duration-300 block hover:scale-125"
+            /></div>
+
+            <!-- Description -->
+            <div
+              class="grid grid-rows-[min-content_60px_min-content] gap-2 my-2 text-gray-700 font-medium"
+            >
+              <h3 class="text-lg font-[400]"> Americano </h3>
+              <p class="leading-[18px] font-thin">
+                Espresso diluted with hot water, smooth and balanced
+              </p>
+              <p class="text-xl"> $3.50 </p>
+            </div>
+
+            <!-- Order Now -->
+            <div
+              class="w-[100%] h-[40px] bg-[#905b25] flex items-center justify-center py-2 mx-auto transition-all duration-300 hover:bg-[#b88148] hover:-translate-y-2"
+              ><button class="text-white">Order Now</button>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div
+            class="grid auto-rows-auto w-[100%] p-[10px] rounded-lg shadow-lg"
+          >
+            <!-- image -->
+            <div
+              class="min-w-[100%] h-[300px] tablet:h-[200px] overflow-hidden rounded-lg"
+            >
+              <img
+                src="/media/coffee-3.jpg"
+                class="h-full w-full object-cover transition-all duration-300 block hover:scale-125"
+            /></div>
+
+            <!-- Description -->
+            <div
+              class="grid grid-rows-[min-content_60px_min-content] gap-2 my-2 text-gray-700 font-medium"
+            >
+              <h3 class="text-lg font-[400]"> Latte </h3>
+              <p class="leading-[18px] font-thin">
+                Espresso with steamed milk, topped with a thin layer of foam
+              </p>
+              <p class="text-xl"> $4.00 </p>
+            </div>
+
+            <!-- Order Now -->
+            <div
+              class="w-[100%] h-[40px] bg-[#905b25] flex items-center justify-center py-2 mx-auto transition-all duration-300 hover:bg-[#b88148] hover:-translate-y-2"
+              ><button class="text-white">Order Now</button>
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div
+            class="grid auto-rows-auto w-[100%] p-[10px] rounded-lg shadow-lg"
+          >
+            <!-- image -->
+            <div
+              class="min-w-[100%] h-[300px] tablet:h-[200px] overflow-hidden rounded-lg"
+            >
+              <img
+                src="/media/coffee-4.jpg"
+                class="h-full w-full object-cover transition-all duration-300 block hover:scale-125"
+            /></div>
+
+            <!-- Description -->
+            <div
+              class="grid grid-rows-[min-content_60px_min-content] gap-2 my-2 text-gray-700 font-medium"
+            >
+              <h3 class="text-lg font-[400]"> Cappuccino </h3>
+              <p class="leading-[18px] font-thin">
+                Equal parts espresso, steamed milk, and foam
+              </p>
+              <p class="text-xl"> $4.00 </p>
+            </div>
+
+            <!-- Order Now -->
+            <div
+              class="w-[100%] h-[40px] bg-[#905b25] flex items-center justify-center py-2 mx-auto transition-all duration-300 hover:bg-[#b88148] hover:-translate-y-2"
+              ><button class="text-white">Order Now</button>
+            </div>
+          </div>
+
+          <!-- 5 -->
+          <div
+            class="grid auto-rows-auto w-[100%] p-[10px] rounded-lg shadow-lg"
+          >
+            <!-- image -->
+            <div
+              class="min-w-[100%] h-[300px] tablet:h-[200px] overflow-hidden rounded-lg"
+            >
+              <img
+                src="/media/coffee-5.jpg"
+                class="h-full w-full object-cover transition-all duration-300 block hover:scale-125"
+            /></div>
+
+            <!-- Description -->
+            <div
+              class="grid grid-rows-[min-content_60px_min-content] gap-2 my-2 text-gray-700 font-medium"
+            >
+              <h3 class="text-lg font-[400]"> Mocha </h3>
+              <p class="leading-[18px] font-thin">
+                Espresso with steamed milk and chocolate syrup, topped with
+                whipped cream
+              </p>
+              <p class="text-xl"> $4.50 </p>
+            </div>
+
+            <!-- Order Now -->
+            <div
+              class="w-[100%] h-[40px] bg-[#905b25] flex items-center justify-center py-2 mx-auto transition-all duration-300 hover:bg-[#b88148] hover:-translate-y-2"
+              ><button class="text-white">Order Now</button>
+            </div>
+          </div>
+
+          <!-- 6 -->
+          <div
+            class="grid auto-rows-auto w-[100%] p-[10px] rounded-lg shadow-lg"
+          >
+            <!-- image -->
+            <div
+              class="min-w-[100%] h-[300px] tablet:h-[200px] overflow-hidden rounded-lg"
+            >
+              <img
+                src="/media/coffee-6.jpg"
+                class="h-full w-full object-cover transition-all duration-300 block hover:scale-125"
+            /></div>
+
+            <!-- Description -->
+            <div
+              class="grid grid-rows-[min-content_60px_min-content] gap-2 my-2 text-gray-700 font-medium"
+            >
+              <h3 class="text-lg font-[400]"> Cold Brew</h3>
+              <p class="leading-[18px] font-thin">
+                Slow-steeped cold brew coffee, smooth and refreshing
+              </p>
+              <p class="text-xl"> $4.75 </p>
+            </div>
+
+            <!-- Order Now -->
+            <div
+              class="w-[100%] h-[40px] bg-[#905b25] flex items-center justify-center py-2 mx-auto transition-all duration-300 hover:bg-[#b88148] hover:-translate-y-2"
+              ><button class="text-white">Order Now</button>
+            </div>
+          </div>
+          <!-- end  -->
+        </div>
+      </section>
+      <!-- end Menu -->
+
+      <!-- Our Menu Pastries -->
+      <section class="py-[50px] set:max-tablet:px-[2rem] desktop:px-[3rem]">
+        <div
+          class="w-[100%] my-[20px] flex flex-col items-center justify-center"
+        >
+          <p
+            class="set:text-[20px] fold:text-[25px] tablet:text-[30px] laptop:leading-[50px] font-[600] transition-all duration-300 text-gray-600"
+          >
+            Snacks & Pastries
+          </p>
+        </div>
+
+        <!-- The Menu Pastries -->
+        <div
+          class="grid gap-[2rem] tablet:max-laptop:gap-[1rem] w-[100%] mx-auto fold:max-tablet:grid-cols-2 fold:max-tablet:grid-rows-2 tablet:grid-cols-4"
+        >
+          <!-- 1 -->
+          <div
+            class="grid auto-rows-auto w-[100%] p-[10px] rounded-lg shadow-lg"
+          >
+            <!-- image -->
+            <div
+              class="min-w-[100%] h-[300px] tablet:h-[150px] desktop:h-[200px] overflow-hidden rounded-lg"
+            >
+              <img
+                src="/media/snack-1.jpg"
+                class="h-full w-full object-cover transition-all duration-300 block hover:scale-125"
+            /></div>
+
+            <!-- Description -->
+            <div
+              class="grid grid-rows-[min-content_60px_min-content] tablet:max-laptop:grid-rows-[min-content_35px_min-content] gap-2 my-2 text-gray-700 font-medium"
+            >
+              <h3 class="text-lg font-[400] tablet:max-laptop:text-base">
+                Espresso
+              </h3>
+              <p class="leading-[18px] font-thin tablet:max-laptop:text-[70%]">
+                Rich, bold, and strong espresso shots
+              </p>
+              <p class="text-xl tablet:max-laptop:text-lg"> $2.75 </p>
+            </div>
+
+            <!-- Order Now -->
+            <div
+              class="w-[100%] h-[40px] bg-[#905b25] flex items-center justify-center py-2 mx-auto transition-all duration-300 hover:bg-[#b88148] hover:-translate-y-2"
+              ><button class="text-white">Order Now</button>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div
+            class="grid auto-rows-auto w-[100%] p-[10px] rounded-lg shadow-lg"
+          >
+            <!-- image -->
+            <div
+              class="min-w-[100%] h-[300px] tablet:h-[150px] desktop:h-[200px] overflow-hidden rounded-lg"
+            >
+              <img
+                src="/media/snack-2.jpg"
+                class="h-full w-full object-cover transition-all duration-300 block hover:scale-125"
+            /></div>
+
+            <!-- Description -->
+            <div
+              class="grid grid-rows-[min-content_60px_min-content] tablet:max-laptop:grid-rows-[min-content_35px_min-content] gap-2 my-2 text-gray-700 font-medium"
+            >
+              <h3 class="text-lg font-[400] tablet:max-laptop:text-base">
+                Americano
+              </h3>
+              <p class="leading-[18px] font-thin tablet:max-laptop:text-[70%]">
+                Espresso diluted with hot water, smooth and balanced
+              </p>
+              <p class="text-xl tablet:max-laptop:text-lg"> $3.50 </p>
+            </div>
+
+            <!-- Order Now -->
+            <div
+              class="w-[100%] h-[40px] bg-[#905b25] flex items-center justify-center py-2 mx-auto transition-all duration-300 hover:bg-[#b88148] hover:-translate-y-2"
+              ><button class="text-white">Order Now</button>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div
+            class="grid auto-rows-auto w-[100%] p-[10px] rounded-lg shadow-lg"
+          >
+            <!-- image -->
+            <div
+              class="min-w-[100%] h-[300px] tablet:h-[150px] desktop:h-[200px] overflow-hidden rounded-lg"
+            >
+              <img
+                src="/media/snack-3.jpg"
+                class="h-full w-full object-cover transition-all duration-300 block hover:scale-125"
+            /></div>
+
+            <!-- Description -->
+            <div
+              class="grid grid-rows-[min-content_60px_min-content] tablet:max-laptop:grid-rows-[min-content_35px_min-content] gap-2 my-2 text-gray-700 font-medium"
+            >
+              <h3 class="text-lg font-[400] tablet:max-laptop:text-base">
+                Latte
+              </h3>
+              <p class="leading-[18px] font-thin tablet:max-laptop:text-[70%]">
+                Espresso with steamed milk, topped with a thin layer of foam
+              </p>
+              <p class="text-xl tablet:max-laptop:text-lg"> $4.00 </p>
+            </div>
+
+            <!-- Order Now -->
+            <div
+              class="w-[100%] h-[40px] bg-[#905b25] flex items-center justify-center py-2 mx-auto transition-all duration-300 hover:bg-[#b88148] hover:-translate-y-2"
+              ><button class="text-white">Order Now</button>
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div
+            class="grid auto-rows-auto w-[100%] p-[10px] rounded-lg shadow-lg"
+          >
+            <!-- image -->
+            <div
+              class="min-w-[100%] h-[300px] tablet:h-[150px] desktop:h-[200px] overflow-hidden rounded-lg"
+            >
+              <img
+                src="/media/snack-4.jpg"
+                class="h-full w-full object-cover transition-all duration-300 block hover:scale-125"
+            /></div>
+
+            <!-- Description -->
+            <div
+              class="grid grid-rows-[min-content_60px_min-content] tablet:max-laptop:grid-rows-[min-content_35px_min-content] gap-2 my-2 text-gray-700 font-medium"
+            >
+              <h3 class="text-lg font-[400] tablet:max-laptop:text-base">
+                Cappuccino
+              </h3>
+              <p class="leading-[18px] font-thin tablet:max-laptop:text-[70%]">
+                Equal parts espresso, steamed milk, and foam
+              </p>
+              <p class="text-xl tablet:max-laptop:text-lg"> $4.00 </p>
+            </div>
+
+            <!-- Order Now -->
+            <div
+              class="w-[100%] h-[40px] bg-[#905b25] flex items-center justify-center py-2 mx-auto transition-all duration-300 hover:bg-[#b88148] hover:-translate-y-2"
+              ><button class="text-white">Order Now</button>
+            </div>
+          </div>
+          <!-- end  -->
+        </div>
+      </section>
+      <!-- end Pastries -->
+
+      <!-- Offer -->
+      <section class="py-[50px] set:max-tablet:px-[2rem] desktop:px-[3rem]">
+        <div
+          class="w-[100%] my-[20px] flex flex-col items-center justify-center"
+        >
+          <h1
+            class="set:max-phone:text-[20px] phone:max-fold:text-[25px] fold:max-tablet:text-[30px] tablet:max-laptop:text-[35px] laptop:text-[40px] laptop:leading-[50px] transition-all duration-300 text-[#3c7c53] font-normal font-sans"
+          >
+            Limited-Time Offer
+          </h1>
+        </div>
+        <div
+          class="tablet:w-[100%] laptop:w-[90%] set:max-tablet:p-[16px] m-auto grid tablet:grid-cols-[2fr_1fr] shadow-lg"
+        >
+          <div
+            class="w-full h-[350px] overflow-hidden set:max-tablet:h-[300px] tablet:[clip-path:polygon(0_0,_100%_0,_85%_100%,_0_100%)]"
+            ><img
+              src="/media/offer.jpg"
+              alt="offer"
+              class="w-full h-full object-cover transition-all duration-300 block hover:scale-125"
+            />
+          </div>
+          <div
+            class="flex flex-col justify-center py-[20px] set:max-tablet:w-[80%] tablet:w-[90%] m-auto"
+          >
+            <ul
+              class="grid grid-rows-[min-content] gap-3 text-gray-600 set:text-[70%] laptop:text-base"
+            >
+              <li>Deal Free pastry with any large coffee</li>
+              <li>When: Mon - Fri, 2 - 5 PM</li>
+              <li
+                >How: Mention "Code & Sip" or use code
+                <span class="font-[700] text-base">CODECAFE20</span></li
+              >
+              <li>Includes: Crossiant, Muffin, or Cookie</li>
+              <li>
+                T&Cs: Dine-in/takeout only, one per customer, not combinable
+                with other offers
+              </li>
+              <li>EXPIRES IN 34 HOURS</li></ul
+            >
+          </div>
+        </div>
+      </section>
+      <!-- end Offer -->
     </div>
   </body>
   <script src="/dist/main.js"></script>

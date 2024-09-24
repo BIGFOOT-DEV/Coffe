@@ -7,7 +7,7 @@ let toggleNav = function() {
     if (toggleNavBarStatus === false){
         getBurgMenu.classList.remove('hidden');
         getBurgMenu.classList.add('block');
-        burgBut.innerHTML = '<img src="/media/icons/dump/icon items/close_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg">';
+        burgBut.src = '/media/icons/dump/icon items/close_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg';
         
         toggleNavBarStatus = true;
     }
@@ -16,7 +16,7 @@ let toggleNav = function() {
     else if (toggleNavBarStatus === true) { 
         getBurgMenu.classList.remove('block');
         getBurgMenu.classList.add('hidden');
-        burgBut.innerHTML = '<img src="/media/icons/dump/icon items/menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg">';
+        burgBut.src = '/media/icons/dump/icon items/menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg';
         
         toggleNavBarStatus = false;
     }

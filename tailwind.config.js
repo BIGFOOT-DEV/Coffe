@@ -1,8 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./dist/*.{html,js}"],
+  content: ["./*.{html,js}"],
   theme: {
     extend: {
+      clipPath: {
+        'circle': 'circle(50%)',
+        'polygon': 'polygon(0 0, 100% 0, 85% 100%, 0 100%)',
+      },
       colors: {
         'brown-200': 'rgba(75, 40, 5, 0.75)',
         'brown-100': 'rgba(184, 129, 72, 0.75)',
