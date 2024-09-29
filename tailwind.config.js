@@ -45,10 +45,6 @@ module.exports = {
           '0%':{transform: 'translateX(2rem)', wordSpacing: '10px', opacity: '0'},
           '100%':{transform: 'translateX(0)', wordSpacing: '0px', opacity: '1'}
         },
-        slideIn: {
-          '0%':{transform: 'translateX(100rem)', opacity: '0'},
-          '100%':{transform: 'translateX(0)', opacity: '1'}
-        },
         
       },
       animation: {
@@ -56,7 +52,6 @@ module.exports = {
         heading: 'heading 0.6s ease-in-out',
         heading2: 'heading 0.8s ease-in-out',
         fallIn: 'fallIn 1s ease-in',
-        slideIn: 'slideIn 1.5s ease-in-out',
       }
     },
   },
