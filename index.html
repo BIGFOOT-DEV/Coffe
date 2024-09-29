@@ -172,7 +172,7 @@
               onclick="toggleNav()"
               id="burgBut"
               src="/media/icons/dump/icon items/menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
-              class="transition-all fixed bg-brown-100 rounded-xl"
+              class="transition-all fixed bg-brown-100 rounded-3xl p-1"
             />
           </div>
         </div>
@@ -295,12 +295,12 @@
           class="w-[100%] my-[20px] flex flex-col items-center justify-center"
         >
           <h1
-            class="set:max-phone:text-[20px] phone:max-fold:text-[25px] fold:max-tablet:text-[30px] tablet:max-laptop:text-[35px] laptop:text-[40px] laptop:leading-[50px] transition-all duration-300 text-[#3c7c53] font-normal font-sans"
+            class="set:max-phone:text-[20px] phone:max-fold:text-[25px] fold:max-tablet:text-[30px] tablet:max-laptop:text-[35px] laptop:text-[40px] laptop:leading-[50px] transition-all duration-300 text-[#3c7c53] text-center font-normal font-sans"
           >
             Elevate your workday at Code Café
           </h1>
           <p
-            class="set:max-phone:text-[12px] phone:max-fold:text-[12px] fold:max-tablet:text-[16px] tablet:max-laptop:text-[20px] laptop:text-[25px] laptop:leading-[50px] transition-all duration-300 font-normal text-gray-600"
+            class="set:max-phone:text-[12px] phone:max-fold:text-[12px] fold:max-tablet:text-[16px] tablet:max-laptop:text-[20px] laptop:text-[25px] laptop:leading-[50px] transition-all duration-300 font-normal text-center text-gray-600"
           >
             ...where your next big idea is just a sip away.
           </p>
@@ -798,6 +798,822 @@
       </section>
       <!-- end Offer -->
     </div>
+
+    <!-- stand alone event promotion -->
+    <section class="w-full my-[50px]">
+      <div class="grid set:grid-rows-2 fold:grid-cols-2 fold:grid-rows-1">
+        <div
+          class="bg-cover bg-center set:h-[300px] tablet:h-[350px] laptop:h-[450px] grid grid-cols-6 grid-rows-6"
+          style="
+            background-image: linear-gradient(
+                150deg,
+                rgba(75, 40, 5, 0.75) 30%,
+                rgba(184, 129, 72, 0.75) 120%
+              ),
+              url('../media/event-bg.jpg');
+          "
+        >
+          <img
+            src="media/event-1.jpg"
+            alt="event 1"
+            class="set:w-[90%] phone:w-[80%] fold:w-[100%] col-start-2 col-end-5 row-start-2 row-end-5 transition-all hover:scale-110 hover:z-30"
+          />
+          <img
+            src="media/event-2.jpg"
+            alt="event 2"
+            class="max-phone:max-w-[130%] max-w-[115%] col-start-4 set:col-end-6 fold:col-end-8 row-start-3 row-end-6 z-20 transition-all hover:scale-110"
+          />
+        </div>
+        <!-- event details -->
+        <div class="bg-[#ebebeb] text-[#333333] font-[400]">
+          <div
+            class="w-[65%] h-full m-auto grid auto-rows-min gap-1 place-content-center"
+          >
+            <div>
+              <h1
+                class="set:text-[25px] fold:max-tablet:text-[20px] laptop:text-[30px] leading-[90%] transition-all duration-300 text-[#3c7c53] font-normal font-sans"
+              >
+                Live acoustic night with local artists
+              </h1>
+            </div>
+            <div class="text-[12.8px] laptop:text-base">
+              <p>Date: Friday, October 14, 2024</p>
+              <p>Time: 7:00 PM - 9:00 PM</p>
+              <p>Location: Code Café</p>
+              <p>Description: Evening of live music featuring local talent</p>
+              <p>Specials: 10% off on all beverages during the event. </p>
+            </div>
+            <div
+              ><p
+                class="set:text-[16px] fold:text-[18px] tablet:text-[20px] laptop:text-[22px]"
+                >$20 per person</p
+              ></div
+            >
+            <div
+              class="w-[150px] h-[40px] bg-[#905b25] p-2 mt-[10px] transition-all duration-300 hover:bg-[#b88148] hover:-translate-y-2"
+              ><button class="text-white text-center w-full"
+                >Reserve a spot</button
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End -->
+
+    <section
+      class="py-[50px] px-[50px] tablet:px-[100px] bg-[rgba(246_,_230,_205,_0.5)]"
+    >
+      <div
+        class="grid grid-cols-8 grid-rows-[repeat(10,_6vw)] w-full gap-[5px] tablet:gap-[10px]"
+      >
+        <!-- 1 -->
+        <figure
+          class="overflow-hidden col-start-1 col-end-3 row-start-1 row-end-2"
+        >
+          <img
+            src="media/gallery-1.jpg"
+            alt="gallery-1"
+            class="w-[100%] h-[100%] object-cover scale-125 transition-all hover:scale-100"
+          />
+        </figure>
+
+        <!-- 2 -->
+        <figure
+          class="overflow-hidden col-start-3 col-end-6 row-start-1 row-end-3"
+        >
+          <img
+            src="media/gallery-2.jpg"
+            alt="gallery-2"
+            class="w-[100%] h-[100%] object-cover scale-125 transition-all hover:scale-100"
+          />
+        </figure>
+
+        <!-- 3 -->
+        <figure
+          class="overflow-hidden col-start-6 col-end-7 row-start-1 row-end-4"
+        >
+          <img
+            src="media/gallery-3.jpg"
+            alt="gallery-3"
+            class="w-[100%] h-[100%] object-cover scale-125 transition-all hover:scale-100"
+          />
+        </figure>
+
+        <!-- 4 -->
+        <figure
+          class="overflow-hidden col-start-7 col-end-9 row-start-1 row-end-3"
+        >
+          <img
+            src="media/gallery-4.jpg"
+            alt="gallery-4"
+            class="w-[100%] h-[100%] object-cover scale-125 transition-all hover:scale-100"
+          />
+        </figure>
+
+        <!-- 5 -->
+        <figure
+          class="overflow-hidden col-start-1 col-end-3 row-start-2 row-end-5"
+        >
+          <img
+            src="media/gallery-5.jpg"
+            alt="gallery-5"
+            class="w-[100%] h-[100%] object-cover scale-125 transition-all hover:scale-100"
+          />
+        </figure>
+
+        <!-- 6 -->
+        <figure
+          class="overflow-hidden col-start-3 col-end-4 row-start-3 row-end-5"
+        >
+          <img
+            src="media/gallery-6.jpg"
+            alt="gallery-6"
+            class="w-[100%] h-[100%] object-cover scale-125 transition-all hover:scale-100"
+          />
+        </figure>
+
+        <!-- 7 -->
+        <figure
+          class="overflow-hidden col-start-4 col-end-6 row-start-3 row-end-4"
+        >
+          <img
+            src="media/gallery-7.jpg"
+            alt="gallery-7"
+            class="w-[100%] h-[100%] object-cover scale-125 transition-all hover:scale-100"
+          />
+        </figure>
+
+        <!-- 8 -->
+        <figure
+          class="overflow-hidden col-start-7 col-end-9 row-start-3 row-end-8"
+        >
+          <img
+            src="media/gallery-8.jpg"
+            alt="gallery-8"
+            class="w-[100%] h-[100%] object-cover scale-125 transition-all hover:scale-100"
+          />
+        </figure>
+
+        <!-- 9 -->
+        <figure
+          class="overflow-hidden col-start-1 col-end-2 row-start-5 row-end-8"
+        >
+          <img
+            src="media/gallery-9.jpg"
+            alt="gallery-9"
+            class="w-[100%] h-[100%] object-cover scale-125 transition-all hover:scale-100"
+          />
+        </figure>
+
+        <!-- 10 -->
+        <figure
+          class="overflow-hidden col-start-2 col-end-4 row-start-5 row-end-8"
+        >
+          <img
+            src="media/gallery-10.jpg"
+            alt="gallery-10"
+            class="w-[100%] h-[100%] object-cover scale-125 transition-all hover:scale-100"
+        /></figure>
+
+        <!-- 11 -->
+        <figure
+          class="overflow-hidden col-start-4 col-end-7 row-start-4 row-end-8"
+        >
+          <img
+            src="media/gallery-11.jpg"
+            alt="gallery-11"
+            class="w-[100%] h-[100%] object-cover scale-125 transition-all hover:scale-100"
+          />
+        </figure>
+
+        <!-- 12 -->
+        <figure
+          class="overflow-hidden col-start-1 col-end-4 row-start-8 row-end-11"
+        >
+          <img
+            src="media/gallery-12.jpg"
+            alt="gallery-12"
+            class="w-[100%] h-[100%] object-cover scale-125 transition-all hover:scale-100"
+          />
+        </figure>
+
+        <!-- 13 -->
+        <figure
+          class="overflow-hidden col-start-4 col-end-6 row-start-8 row-end-11"
+        >
+          <img
+            src="media/gallery-13.jpg"
+            alt="gallery-13"
+            class="w-[100%] h-[100%] object-cover scale-125 transition-all hover:scale-100"
+          />
+        </figure>
+
+        <!-- 14 -->
+        <figure
+          class="overflow-hidden col-start-6 col-end-7 row-start-8 row-end-11"
+        >
+          <img
+            src="media/gallery-14.jpg"
+            alt="gallery-14"
+            class="w-[100%] h-[100%] object-cover scale-125 transition-all hover:scale-100"
+          />
+        </figure>
+
+        <!-- 15 -->
+        <figure
+          class="overflow-hidden col-start-7 col-end-9 row-start-8 row-end-11"
+        >
+          <img
+            src="media/gallery-15.jpg"
+            alt="gallery-15"
+            class="w-[100%] h-[100%] object-cover scale-125 transition-all hover:scale-100"
+          />
+        </figure>
+      </div>
+    </section>
+    <!-- End -->
+
+    <!-- Team -->
+    <section class="w-[90%] m-auto p-[50px]">
+      <div
+        class="w-[100%] my-[20px] p-[20px] flex flex-col items-center justify-center"
+      >
+        <h1
+          class="set:max-phone:text-[20px] phone:max-fold:text-[25px] fold:max-tablet:text-[30px] tablet:max-laptop:text-[35px] laptop:text-[40px] laptop:leading-[50px] transition-all duration-300 text-[#3c7c53] font-normal font-sans"
+        >
+          Meet the Team
+        </h1>
+      </div>
+
+      <div
+        class="grid grid-rows-2 fold:grid-cols-2 fold:grid-rows-1 gap-[50px]"
+      >
+        <!-- Team 1 -->
+        <div
+          class="grid grid-rows-[min-content,_repeat(3,_1fr)] p-[10px] gap-[10px] shadow-lg rounded-lg transition-all hover:-translate-y-2"
+        >
+          <!-- team 1 heading -->
+          <div
+            class="w-[100%] my-[20px] flex flex-col items-center justify-center"
+          >
+            <p
+              class="set:text-[25px] fold:text-[18px] tablet:text-[20px] laptop:text-[25px] laptop:leading-[50px] transition-all duration-300 font-semibold text-gray-600"
+            >
+              Top 3 Chefs
+            </p>
+          </div>
+
+          <!-- Team 1 members -->
+
+          <!-- 1 -->
+          <div
+            class="grid grid-cols-[min-content,_1fr] gap-[10px] items-center p-[10px]"
+          >
+            <!-- Chef img -->
+            <div
+              class="w-[50px] set:w-[100px] fold:w-[70px] tablet:w-[80px] laptop:w-[100px]"
+            >
+              <img
+                src="media/chef-1.jpg"
+                alt="chef-1"
+                class="w-[100%] rounded-[50%]"
+              />
+            </div>
+
+            <!-- Description -->
+            <div class="grid auto-rows-auto fold:gap-[5] tablet:gap-[10px]">
+              <p
+                class="text-lg text-[#7b7366] font-[400] fold:text-[70%] tablet:max-laptop:text-base laptop:text-[20px]"
+              >
+                Mia Harper
+              </p>
+              <p
+                class="font-thin fold:text-[60%] tablet:max-laptop:text-[70%] laptop:text-[100%]"
+              >
+                Known for her famous chocolate
+              </p>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div
+            class="grid grid-cols-[min-content,_1fr] gap-[10px] items-center p-[10px]"
+          >
+            <!-- Chef img -->
+            <div
+              class="w-[50px] set:w-[100px] fold:w-[70px] tablet:w-[80px] laptop:w-[100px]"
+            >
+              <img
+                src="media/chef-2.jpg"
+                alt="chef-2"
+                class="w-[100%] rounded-[50%]"
+              />
+            </div>
+
+            <!-- Description -->
+            <div class="grid auto-rows-auto fold:gap-[5] tablet:gap-[10px]">
+              <p
+                class="text-lg text-[#7b7366] font-[400] fold:text-[70%] tablet:max-laptop:text-base laptop:text-[20px]"
+              >
+                Lucas Bennett
+              </p>
+              <p
+                class="font-thin fold:text-[60%] tablet:max-laptop:text-[70%] laptop:text-[100%]"
+              >
+                Expert in artisanal bread and pastries
+              </p>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div
+            class="grid grid-cols-[min-content,_1fr] gap-[10px] items-center p-[10px]"
+          >
+            <!-- Chef img -->
+            <div
+              class="w-[50px] set:w-[100px] fold:w-[70px] tablet:w-[80px] laptop:w-[100px]"
+            >
+              <img
+                src="media/chef-3.jpg"
+                alt="chef-3"
+                class="w-[100%] rounded-[50%]"
+              />
+            </div>
+
+            <!-- Description -->
+            <div class="grid auto-rows-auto fold:gap-[5] tablet:gap-[10px]">
+              <p
+                class="text-lg text-[#7b7366] font-[400] fold:text-[70%] tablet:max-laptop:text-base laptop:text-[20px]"
+              >
+                Emma Collins
+              </p>
+              <p
+                class="font-thin fold:text-[60%] tablet:max-laptop:text-[70%] laptop:text-[100%]"
+              >
+                Pastry chef with a knack for creating innovative deserts
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team 2 (Executives) -->
+        <div
+          class="grid grid-rows-[min-content,_repeat(3,_1fr)] p-[10px] gap-[10px] shadow-lg rounded-lg transition-all hover:-translate-y-2"
+        >
+          <!-- team 2 heading -->
+          <div
+            class="w-[100%] my-[20px] flex flex-col items-center justify-center"
+          >
+            <p
+              class="set:text-[25px] fold:text-[18px] tablet:text-[20px] laptop:text-[25px] laptop:leading-[50px] transition-all duration-300 font-semibold text-gray-600"
+            >
+              Our staffs
+            </p>
+          </div>
+
+          <!-- Team 2 members -->
+
+          <!-- 1 -->
+          <div
+            class="grid grid-cols-[min-content,_1fr] gap-[10px] items-center p-[10px]"
+          >
+            <!-- Chef img -->
+            <div
+              class="w-[50px] set:w-[100px] fold:w-[70px] tablet:w-[80px] laptop:w-[100px]"
+            >
+              <img
+                src="media/staff-1.jpg"
+                alt="staff-1"
+                class="w-[100%] rounded-[50%]"
+              />
+            </div>
+
+            <!-- Description -->
+            <div class="grid auto-rows-auto fold:gap-[5] tablet:gap-[10px]">
+              <p
+                class="text-lg text-[#7b7366] font-[400] fold:text-[70%] tablet:max-laptop:text-base laptop:text-[20px]"
+              >
+                Ava Thompson
+              </p>
+              <p
+                class="font-thin fold:text-[60%] tablet:max-laptop:text-[70%] laptop:text-[100%]"
+              >
+                Head Barista
+              </p>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div
+            class="grid grid-cols-[min-content,_1fr] gap-[10px] items-center p-[10px]"
+          >
+            <!-- Chef img -->
+            <div
+              class="w-[50px] set:w-[100px] fold:w-[70px] tablet:w-[80px] laptop:w-[100px]"
+            >
+              <img
+                src="media/staff-2.jpg"
+                alt="staff-2"
+                class="w-[100%] rounded-[50%]"
+              />
+            </div>
+
+            <!-- Description -->
+            <div class="grid auto-rows-auto fold:gap-[5] tablet:gap-[10px]">
+              <p
+                class="text-lg text-[#7b7366] font-[400] fold:text-[70%] tablet:max-laptop:text-base laptop:text-[20px]"
+              >
+                Liam Brooks
+              </p>
+              <p
+                class="font-thin fold:text-[60%] tablet:max-laptop:text-[70%] laptop:text-[100%]"
+              >
+                Customer Experience Manager
+              </p>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div
+            class="grid grid-cols-[min-content,_1fr] gap-[10px] items-center p-[10px]"
+          >
+            <!-- Chef img -->
+            <div
+              class="w-[50px] set:w-[100px] fold:w-[70px] tablet:w-[80px] laptop:w-[100px]"
+            >
+              <img
+                src="media/staff-3.jpg"
+                alt="staff-3"
+                class="w-[100%] rounded-[50%]"
+              />
+            </div>
+
+            <!-- Description -->
+            <div class="grid auto-rows-auto fold:gap-[5] tablet:gap-[10px]">
+              <p
+                class="text-lg text-[#7b7366] font-[400] fold:text-[70%] tablet:max-laptop:text-base laptop:text-[20px]"
+              >
+                Sofia Ramirez
+              </p>
+              <p
+                class="font-thin fold:text-[60%] tablet:max-laptop:text-[70%] laptop:text-[100%]"
+              >
+                Social Media & Events Coordinator
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End teams -->
+
+    <!-- reviewsss -->
+    <section class="w-[90%] py-[50px] m-auto">
+      <div
+        class="w-[100%] my-[20px] p-[50px] flex flex-col items-center justify-center"
+      >
+        <h1
+          class="set:max-phone:text-[20px] phone:max-fold:text-[25px] fold:max-tablet:text-[30px] tablet:max-laptop:text-[35px] laptop:text-[40px] laptop:leading-[50px] transition-all duration-300 text-[#3c7c53] font-normal font-sans"
+        >
+          Top 3 Reviews
+        </h1>
+      </div>
+
+      <!-- Reviews -->
+
+      <div
+        class="grid set:max-fold:w-[90%] m-auto grid-rows-3 fold:grid-cols-3 fold:grid-rows-1 gap-[20px]"
+      >
+        <!-- 1 -->
+        <div
+          class="relative rounded-lg shadow-lg transition-all hover:-translate-y-4 overflow-hidden"
+        >
+          <p
+            class="absolute font-serif text-[250px] leading-none text-[#ebebeb] top-[-40px] left-[-10px] -z-10"
+          >
+            “
+          </p>
+
+          <div class="grid grid-rows-[1fr_min-content] gap-2 p-[10px] h-full">
+            <div>
+              <p
+                class="set:text-base fold:text-[60%] tablet:text-[80%] laptop:text-base px-[10px]"
+              >
+                I love the atmosphere here. It's cozy, and the Wi-Fi is super
+                fast.
+              </p>
+            </div>
+
+            <!-- profile and rating -->
+            <div class="flex justify-between items-center">
+              <div
+                class="w-full grid grid-cols-[min-content,_1fr,_min-content] gap-[5px] items-center"
+              >
+                <!-- Chef img -->
+                <div
+                  class="w-[50px] set:w-[100px] fold:w-[50px] tablet:w-[60px] laptop:w-[80px]"
+                >
+                  <img
+                    src="media/profile-1.jpg"
+                    alt="profile-1"
+                    class="w-[100%] rounded-[50%]"
+                  />
+                </div>
+
+                <!-- Description -->
+                <div class="grid auto-rows-min fold:gap-[5] tablet:gap-[5px]">
+                  <p
+                    class="text-lg text-[#7b7366] font-[400] fold:text-[70%] tablet:max-laptop:[80%] laptop:text-[16px] leading-none"
+                  >
+                    Mark Davis
+                  </p>
+                  <p
+                    class="font-thin fold:text-[60%] tablet:max-laptop:text-[70%] laptop:text-[100%]"
+                  >
+                    Data Scientists
+                  </p>
+                </div>
+                <p class="text-green-600">8.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 1 End -->
+
+        <!-- 2 -->
+        <div
+          class="relative rounded-lg shadow-lg transition-all hover:-translate-y-4 overflow-hidden"
+        >
+          <p
+            class="absolute font-serif text-[250px] leading-none text-[#ebebeb] top-[-40px] left-[-10px] -z-10"
+          >
+            “
+          </p>
+
+          <div class="grid grid-rows-[1fr_min-content] gap-2 p-[10px] h-full">
+            <div>
+              <p
+                class="set:text-base fold:text-[60%] tablet:text-[80%] laptop:text-base px-[10px]"
+              >
+                I come here every weekend to unwind and work on my side
+                projects. Love it!
+              </p>
+            </div>
+
+            <!-- profile and rating -->
+            <div class="flex justify-between items-center">
+              <div
+                class="w-full grid grid-cols-[min-content,_1fr,_min-content] gap-[5px] items-center"
+              >
+                <!-- Chef img -->
+                <div
+                  class="w-[50px] set:w-[100px] fold:w-[50px] tablet:w-[60px] laptop:w-[80px]"
+                >
+                  <img
+                    src="media/profile-2.jpg"
+                    alt="profile-2"
+                    class="w-[100%] rounded-[50%]"
+                  />
+                </div>
+
+                <!-- Description -->
+                <div class="grid auto-rows-min fold:gap-[5] tablet:gap-[5px]">
+                  <p
+                    class="text-lg text-[#7b7366] font-[400] fold:text-[70%] tablet:max-laptop:[80%] laptop:text-[16px] leading-none"
+                  >
+                    Priya Sharma
+                  </p>
+                  <p
+                    class="font-thin fold:text-[60%] tablet:max-laptop:text-[70%] laptop:text-[100%]"
+                  >
+                    DenOps Engineer
+                  </p>
+                </div>
+                <p class="text-green-600">8.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 2 End -->
+
+        <!-- 3 -->
+        <div
+          class="relative rounded-lg shadow-lg transition-all hover:-translate-y-4 overflow-hidden"
+        >
+          <p
+            class="absolute font-serif text-[250px] leading-none text-[#ebebeb] top-[-40px] left-[-10px] -z-10"
+          >
+            “
+          </p>
+
+          <div class="grid grid-rows-[1fr_min-content] gap-2 p-[10px] h-full">
+            <div>
+              <p
+                class="set:text-base fold:text-[60%] tablet:text-[80%] laptop:text-base"
+              >
+                Code Café is the perfect place for getting work done. Great
+                coffee, great vibe!
+              </p>
+            </div>
+
+            <!-- profile and rating -->
+            <div class="flex justify-between items-center">
+              <div
+                class="w-full grid grid-cols-[min-content,_1fr,_min-content] gap-[5px] items-center"
+              >
+                <!-- Chef img -->
+                <div
+                  class="w-[50px] set:w-[100px] fold:w-[50px] tablet:w-[60px] laptop:w-[80px]"
+                >
+                  <img
+                    src="media/profile-3.jpg"
+                    alt="profile-3"
+                    class="w-[100%] rounded-[50%]"
+                  />
+                </div>
+
+                <!-- Description -->
+                <div class="grid auto-rows-min fold:gap-[5] tablet:gap-[5px]">
+                  <p
+                    class="text-lg text-[#7b7366] font-[400] fold:text-[70%] tablet:max-laptop:[80%] laptop:text-[16px] leading-none"
+                  >
+                    Sarah Thompson
+                  </p>
+                  <p
+                    class="font-thin fold:text-[60%] tablet:max-laptop:text-[70%] laptop:text-[100%]"
+                  >
+                    Software Engineer
+                  </p>
+                </div>
+                <p class="text-green-600">8.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 3 End -->
+      </div>
+    </section>
+    <!-- End -->
+
+    <!-- contact -->
+    <section class="w-[90%] py-[50px] m-auto">
+      <div
+        class="grid set:grid-cols-none fold:grid-cols-[40%,_20%,_40%] grid-rows-[repeat(2,_min-content)] mb-[2rem] fold:px-[50px]"
+      >
+        <div
+          class="col-start-1 set:-col-end-1 fold:col-end-3 row-start-1 row-end-2 grid set:grid-cols-[20rem] fold:grid-cols-[15rem] tablet:grid-cols-[20rem] gris-rows-[repeat(3,_min-content)] gap-[1rem] text-white font-[400] text-[20px] justify-center content-center z-20 set:bg-[#905b25b5] fold:bg-[#905b25] fold:[clip-path:polygon(0_0,_100%_0,_85%_100%,_0_100%)]"
+        >
+          <h2
+            class="font-[400] text-[30px] fold:text-[20px] tablet:text-[30px] laptop:text-[40px]"
+          >
+            Get in Touch</h2
+          >
+          <p
+            class="text-[80%] fold:text-[70%] tablet:text-[80%] laptop:text-[100%]"
+          >
+            We're conveniently located in the heart of CozyTown,just a short
+            walk from the main square.
+          </p>
+          <p
+            class="flex gap-[5px] text-[80%] fold:text-[70%] tablet:text-[80%] laptop:text-[100%]"
+          >
+            <img
+              src="media/icons/dump/icon items/map.svg"
+              alt="map"
+              class="w-[5%]"
+            />
+            123 Coffee Street, CozyTown, USA
+          </p>
+        </div>
+        <div
+          class="set:col-start-1 fold:col-start-2 -col-end-1 row-start-1 row-end-2 overflow-hidden"
+        >
+          <img
+            src="media/contact.jpg"
+            alt="contact"
+            class="w-full h-full object-cover transition-all hover:scale-150 hover:-translate-y-[6rem]"
+          />
+        </div>
+
+        <!-- Contact address -->
+        <div
+          class="grid fold:grid-cols-[repeat(2,_14rem)] laptop:grid-cols-[repeat(2,_20rem)] gap-[3rem] -translate-y-10 fold:-translate-y-4 tablet:-translate-y-10 justify-center col-start-1 -col-end-1 z-30"
+        >
+          <div
+            class="shadow-lg shadow-slate-400 bg-white py-6 px-8 tablet:px-6 laptop:px-8 transition-all duration-300 text-slate-600 hover:-translate-y-4"
+          >
+            <h4
+              class="font-[600] text-[30px] fold:text-[16px] tablet:text-[20px] laptop:text-[25px]"
+            >
+              Connect with us
+            </h4>
+            <ul
+              class="flex flex-col gap-[10px] text-[80%] fold:text-[70%] tablet:text-[80%] laptop:text-[100%]"
+            >
+              <li class="flex items-center gap-[5px]">
+                <img
+                  src="media/icons/dump/icon items/phone.svg"
+                  alt="phone"
+                  class="w-[20px] fold:w-[15px] laptop:w-[20px]"
+                />
+                (123 456-7890)
+              </li>
+              <li class="flex items-center gap-[5px]">
+                <img
+                  src="media/icons/dump/icon items/mail.svg"
+                  alt="mail"
+                  class="w-[20px] fold:w-[15px] laptop:w-[20px]"
+                />
+                info@codecafe.com
+              </li>
+              <li class="flex items-center gap-[5px]">
+                <div class="flex gap-[2px]">
+                  <img
+                    src="media/icons/dump/icon items/instagram.svg"
+                    alt="icon"
+                    class="w-[20px] fold:w-[15px] laptop:w-[20px]"
+                  />
+                  <img
+                    src="media/icons/dump/icon items/X.svg"
+                    alt="icon"
+                    class="w-[20px] fold:w-[15px] laptop:w-[20px]"
+                  />
+                  <img
+                    src="media/icons/dump/icon items/facebook.svg"
+                    alt="icon"
+                    class="w-[20px] fold:w-[15px] laptop:w-[20px]"
+                  />
+                </div>
+                @_thecodeCafe / Code Cafe
+              </li>
+            </ul>
+          </div>
+
+          <!-- workin hours -->
+          <div
+            class="shadow-lg shadow-slate-400 bg-white py-6 px-8 tablet:px-6 laptop:px-8 transition-all duration-300 text-slate-600 hover:-translate-y-4"
+          >
+            <h4
+              class="font-[600] text-[30px] fold:text-[16px] tablet:text-[20px] laptop:text-[25px]"
+            >
+              Business hours
+            </h4>
+            <ul
+              class="flex flex-col gap-[10px] text-[80%] fold:text-[70%] tablet:text-[80%] laptop:text-[100%]"
+            >
+              <li class=""> Mon - Fri: 7:00 AM - 6:00 PM</li>
+              <li class=""> Sat: 8:00 AM - 5:00 PM </li>
+              <li class=""> Sun: 8:00 AM - 4:00 PM </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End contact -->
+
+    <!-- Footer -->
+    <footer
+      class="grid auto-rows-min grid-cols-[100%] bg-[#f6e6cd] py-[100px] px-[50px] justify-center gap-10 text-[#4b2805]"
+    >
+      <div class="flex justify-center items-center">
+        <img
+          src="media/Logo-2.png"
+          alt="logo"
+          class="set:w-[100px] fold:w-[200px] it"
+        />
+      </div>
+      <ul
+        class="w-full flex set:flex-col fold:flex-row justify-between self-stretch items-center gap-2 uppercase font-[700] text-[100%] fold:text-[70%] tablet:text-[80%] laptop:text-[100%]"
+      >
+        <li
+          class="hover:bg-[rgba(144,_91,_37,_0.09)] hover:-translate-y-2 py-2 px-4 transition-all duration-300"
+        >
+          <a href="#">need theraphy? </a></li
+        >
+        <li
+          class="hover:bg-[rgba(144,_91,_37,_0.09)] hover:-translate-y-2 py-2 px-4 transition-all duration-300"
+        >
+          <a href="#">download our diet plan</a>
+        </li>
+        <li
+          class="hover:bg-[rgba(144,_91,_37,_0.09)] hover:-translate-y-2 py-2 px-4 transition-all duration-300"
+        >
+          <a href="#">come work with us</a>
+        </li>
+        <li
+          class="hover:bg-[rgba(144,_91,_37,_0.09)] hover:-translate-y-2 py-2 px-4 transition-all duration-300"
+        >
+          <a href="#"> host your event </a>
+        </li>
+      </ul>
+      <p
+        class="w-full text-center text-[80%] fold:text-[70%] tablet:text-[80%] laptop:text-[100%]"
+      >
+        © 2024 by Code Café (BIGFOOT_DEV).All rights reserved
+      </p>
+    </footer>
+    <!-- Final Stop. Thanks for following, I hope you understand the code😂😭🤝 -->
   </body>
   <script src="/dist/main.js"></script>
 </html>
