@@ -1692,6 +1692,10 @@ video {
   font-size: 100%;
 }
 
+.text-\[60\%\] {
+  font-size: 60%;
+}
+
 .font-\[400\] {
   font-weight: 400;
 }
@@ -2411,9 +2415,17 @@ video {
     gap: 5;
   }
 
+  .fold\:gap-\[1rem\] {
+    gap: 1rem;
+  }
+
   .fold\:bg-\[\#905b25\] {
     --tw-bg-opacity: 1;
     background-color: rgb(144 91 37 / var(--tw-bg-opacity));
+  }
+
+  .fold\:p-\[50px\] {
+    padding: 50px;
   }
 
   .fold\:px-\[50px\] {
